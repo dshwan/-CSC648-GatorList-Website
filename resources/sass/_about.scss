@@ -1,0 +1,35 @@
+// scss 
+$shadow: black;
+$darkColor: #343a40;
+$darkerColorBright: rgba(255, 255, 255, 0.1);
+$light: white;
+$letterSpace: .5rem;
+
+// set background image
+#aboutPage {
+    background-image: url('/images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 735px;
+    height: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        background-position-x: -500px;
+    }
+
+    div .container {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-position-x: -700px;
+    }
+
+    .nav-link:hover {
+        border: none;
+    }
+}
